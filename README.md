@@ -40,7 +40,7 @@ yarn build # OR npm run build
         proxy: 'http://127.0.0.1:3333'
       },
 
-      // output built static files to Laravel's public dir.
+      // output built static files to Adonisjs's public dir.
       // note the "build" script in package.json needs to be modified as well.
       outputDir: '../public',
 
@@ -63,7 +63,7 @@ yarn build # OR npm run build
     },
     ```
 
-4. Configure Laravel for single-page app.
+4. Configure Adonisjs for single-page app.
 
     **start/routes.js**
 
