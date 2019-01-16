@@ -16,4 +16,7 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+Route.get('login', 'LoginController.redirect')
+Route.get('callback', 'LoginController.callback')
+
 Route.any('*', 'SpaController.index')
