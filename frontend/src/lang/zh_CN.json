@@ -1,0 +1,47 @@
+{
+  "topMenu": {
+    "user": "用户管理",
+    "sub_user": {
+      "user_list": "用户列表"
+    },
+    "website": "网站管理",
+    "sub_website": {
+      "shop": "商城管理",
+      "blog": "博客管理",
+      "forum": "论坛管理",
+      "vpn": "翻墙管理",
+      "nav": "导航管理",
+      "crawle": "爬虫管理",
+      "pinxin": "品信管理",
+      "doniai": "多尼爱站点管理"
+    },
+    "wechat": "微信管理",
+    "sub_wechat": {
+      "official_accounts": "公众号管理",
+      "mini_program": "小程序管理"
+    },
+    "api": "接口管理",
+    "sub_api": {
+      "public_api": "开源接口管理",
+      "private_api": "私有接口管理"
+    },
+    "order": "订单管理",
+    "sub_order": {
+      "order_list": "订单列表"
+    },
+    "total": "统计管理",
+    "sub_total": {
+      "shop_income_report": "商城收益报表",
+      "mini_program_income_report": "小程序收益报表"
+    },
+    "username": "管欣",
+    "sub_username": {
+      "user_center": "用户中心",
+      "user_logout": "退出登录"
+    }
+  },
+  "logoAlt": "多尼爱超级管理后台",
+  "message": {
+    "hello": "你好 世界"
+  }
+}

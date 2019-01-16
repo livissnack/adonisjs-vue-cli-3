@@ -1,0 +1,47 @@
+{
+  "topMenu": {
+    "user": "User",
+    "sub_user": {
+      "user_list": "User List"
+    },
+    "website": "Website",
+    "sub_website": {
+      "shop": "Shop",
+      "blog": "Blog",
+      "forum": "Forum",
+      "vpn": "Vpn",
+      "nav": "Nav",
+      "crawle": "Crawle",
+      "pinxin": "PinXin",
+      "doniai": "Doniai"
+    },
+    "wechat": "Wechat",
+    "sub_wechat": {
+      "official_accounts": "Official Accounts",
+      "mini_program": "Mini Program"
+    },
+    "api": "Api",
+    "sub_api": {
+      "public_api": "Public Api",
+      "private_api": "Private Api"
+    },
+    "order": "Order",
+    "sub_order": {
+      "order_list": "Order List"
+    },
+    "total": "Total",
+    "sub_total": {
+      "shop_income_report": "Shop Income Report",
+      "mini_program_income_report": "Mini Program Income Report"
+    },
+    "username": "Bruce Snack",
+    "sub_username": {
+      "user_center": "User Center",
+      "user_logout": "Logout"
+    }
+  },
+  "logoAlt": "Doniai Super Manager Admin",
+  "message": {
+    "hello": "hello world"
+  }
+}
