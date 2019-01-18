@@ -63,8 +63,9 @@
     color: #2c3e50;
 
     .progress-style {
-      top: -10px;
-      height: 1px !important;
+      position: fixed;
+      left: 0;
+      top: -8px;
     }
   }
 </style>

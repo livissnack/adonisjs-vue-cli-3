@@ -40,7 +40,7 @@
 </script>
 <style lang='less' scoped>
   .wrapper {
-    margin-top: -10px;
+    margin-top: 10px;
   }
 
   .content {

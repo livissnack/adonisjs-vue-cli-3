@@ -34,7 +34,7 @@
         <SubMenu>
           <span slot="title" class="submenu-title-wrapper">
             <Icon type="wechat" />
-             {{ $t('topMenu.wechat') }}
+            {{ $t('topMenu.wechat') }}
           </span>
           <ItemGroup>
             <MenuItem key="setting:10">{{ $t('topMenu.sub_wechat.official_accounts') }}</MenuItem>
@@ -126,11 +126,7 @@
       RadioButton: Radio.Button,
     },
     methods: {
-      handleSubmit() {
-        console.log('aaaa')
-      },
       changeLocale(e) {
-        console.log(e.target.value)
         const localeValue = e.target.value.locale
         if (!localeValue) {
           moment.locale('en');

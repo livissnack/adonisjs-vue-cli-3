@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div></div>
+  <div>这是博客首页</div>
 </template>
 
 <script>

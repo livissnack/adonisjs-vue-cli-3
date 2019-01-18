@@ -56,7 +56,7 @@
 </template>
 
 <script>
-  import List from '../../mixins/table'
+  import List from '@/mixins/table'
   export default {
     mixins: [List],
     data() {
