@@ -24,26 +24,28 @@ Route.get('test', 'ApiController.test')
 Route.get('login', 'LoginController.redirect')
 Route.get('callback', 'LoginController.callback')
 
-/**
- * cnodejs社区接口
- */
-Route.get('cnode/topics', 'ApiController.cnodeList')
-Route.get('cnode/topic/:id', 'ApiController.cnodeDetail')
+Route.group(() => {
+  /**
+   * cnodejs社区接口
+   */
+  Route.get('cnode/topics', 'ApiController.cnodeList')
+  Route.get('cnode/topic/:id', 'ApiController.cnodeDetail')
 
-/**
- * 货币汇率实时接口
- */
-Route.get('finance/quotes', 'ApiController.quotes')
-Route.get('finance/symbols', 'ApiController.symbols')
-Route.get('finance/convert', 'ApiController.convert')
-Route.get('finance/market/status', 'ApiController.marketStatus')
-Route.get('finance/quota', 'ApiController.quota')
+  /**
+   * 货币汇率实时接口
+   */
+  Route.get('finance/quotes', 'ApiController.quotes')
+  Route.get('finance/symbols', 'ApiController.symbols')
+  Route.get('finance/convert', 'ApiController.convert')
+  Route.get('finance/market/status', 'ApiController.marketStatus')
+  Route.get('finance/quota', 'ApiController.quota')
 
-/**
- * 手机串号查信息
- */
-Route.get('imei/info/checkimei', 'ApiController.checkimei')
-Route.get('imei/info/checkkey', 'ApiController.checkImeiKeyStatus')
+  /**
+   * 手机串号查信息
+   */
+  Route.get('imei/info/checkimei', 'ApiController.checkimei')
+  Route.get('imei/info/checkkey', 'ApiController.checkImeiKeyStatus')
+}).prefix('api/v1')
 
 
 /**
